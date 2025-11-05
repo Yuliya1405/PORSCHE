@@ -37,8 +37,8 @@
     font-size: 18px;
 }
 
-.content__left_title, .
-gallery__content h2 {
+.content__left_title, 
+.gallery__content h2 {
     font-size: 32px;
 }
 
@@ -67,6 +67,11 @@ gallery__content h2 {
 }
 .content__left_text{
      text-align: center;
+}
+
+.footer__content {
+    flex-direction: column;
+    gap: 30px;
 }
     
 }
@@ -111,7 +116,7 @@ gallery__content h2 {
         }
         
         
-        }
+     
         
         .nav input[type="checkbox"]:checked~.nav__content .nav__btn span:nth-of-type(3) {
             transform: rotate(-45deg);
@@ -121,7 +126,7 @@ gallery__content h2 {
         
         .header__content {
             min-height: 547px;
-    
+        }
         .header__content h1{
             font-size: 60px;
         }
@@ -130,8 +135,5 @@ gallery__content h2 {
             padding: 16px 24px;
             font-size: 16px;
         }
-}
 
-@media (max-width:320px) {
-    
-}
+    }
