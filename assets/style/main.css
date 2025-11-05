@@ -19,6 +19,10 @@ ul {
     list-style: none;
 }
 
+.img{
+    user-select: none;
+}
+
 .container {
     width: 100%;
     max-width: 1140px;
@@ -172,6 +176,12 @@ input[type="checkbox"] {
     max-width: 100%;
 }
 
+.about__content-text {
+ 
+    font-size: 100%;
+    text-align: center; 
+}
+
 .about__content {
     display: flex;
     flex-direction: column;
@@ -183,10 +193,20 @@ input[type="checkbox"] {
     padding-bottom: 120px;
 }
 
+.about img{
+    max-width: 100%;
+}
+
 .about__content h2 {
     font-weight: 700;
     font-size: 40px;
     color: #eb3a13;
+    
+}
+
+.about h2 {
+    max-width: 100%;
+    text-align: center;
 }
 
 .about__content p {
